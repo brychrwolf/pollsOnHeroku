@@ -12,7 +12,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '',                      # Or path to database file if using sqlite3.
+        'NAME': 'C:/Users/Initia7_B/Documents/HPU/CSCI 3771/pollsOnHeroku/polls', # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -106,7 +106,8 @@ ROOT_URLCONF = 'polls.urls'
 WSGI_APPLICATION = 'polls.wsgi.application'
 
 TEMPLATE_DIRS = (
-	'/app/polls/templates'
+	'/app/polls/templates',
+	'C:/Users/Initia7_B/Documents/HPU/CSCI 3771/pollsOnHeroku/polls/templates',     
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
